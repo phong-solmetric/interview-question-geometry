@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            height: 60%;
+            width: 60%;
+        }
+
+        #module-input-group {
+            margin: 10px;
+        }
+
+        input {
+            margin: 5px;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="module-input-group">
+        Width: <input type="text" id="module-width" value="5"><br>
+        Length: <input type="text" id="module-length" value="7"><br>
+        Spacing: <input type="text" id="module-spacing" value="0"><br>
+        <button id="popupulate-button">Populate</button><br>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="./solar.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?client=gme-solmetriccorporation&callback=solar.init" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+
+</body>
+</html>

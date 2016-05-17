@@ -1,0 +1,24 @@
+{
+  "name": "interview-question-geometry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solar.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phong-solmetric/interview-question-geometry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phong-solmetric/interview-question-geometry/issues"
+  },
+  "homepage": "https://github.com/phong-solmetric/interview-question-geometry#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  }
+}
